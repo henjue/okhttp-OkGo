@@ -41,6 +41,10 @@ import okio.Sink;
  */
 public class ProgressRequestBody<T> extends RequestBody {
 
+    public RequestBody getRequestBody() {
+        return requestBody;
+    }
+
     private RequestBody requestBody;         //实际的待包装请求体
     private Callback<T> callback;
     private UploadInterceptor interceptor;
