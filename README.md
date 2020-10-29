@@ -4,7 +4,8 @@
 
 > 工程结构全新优化  
 支持RxJava  
-支持RxJava2  
+支持RxJava2
+支持RxJava3
 支持自定义缓存策略  
 支持下载管理  
 支持上传管理  
@@ -60,7 +61,7 @@ compile 'com.lzy.net:okgo:3.0.4'
 
 //以下三个选择添加，okrx和okrx2不能同时使用
 compile 'com.lzy.net:okrx:1.0.2'
-compile 'com.lzy.net:okrx2:2.0.2'  
+compile 'com.lzy.net:okrx2:2.0.2'
 compile 'com.lzy.net:okserver:2.0.5'
 ```
 
